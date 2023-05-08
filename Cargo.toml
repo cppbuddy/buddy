@@ -1,0 +1,22 @@
+[package]
+name = "buddy"
+version = "0.0.3"
+edition = "2021"
+description = "The C++ Package Manager"
+documentation = "https://github.com/cppbuddy/buddy"
+homepage = "https://github.com/cppbuddy/buddy"
+repository = "https://github.com/cppbuddy/buddy"
+readme = "README.md"
+keywords = ["c", "c++", "cpp", "cxx", "package"]
+categories = ["command-line-utilities", "configuration", "build-utils"]
+license = "GPL-3.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "2.0.0"
+which = "4.4.0"
+toml = "0.7.2"
+clap = { version = "4.2.7", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+tempfile = "3.5.0"

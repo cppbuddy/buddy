@@ -1,2 +1,1 @@
-# buddy
-The C++ Package Manager
+# The C++ Package Manager
